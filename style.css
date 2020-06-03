@@ -1,0 +1,57 @@
+@font-face {
+  font-family:  PT Root;
+  src:  url(ptroot.woff2);
+}
+
+body {
+	font-family: Recoleta;
+	font-size: 19px;
+	line-height: 1.5;
+  font-weight:  bold;
+	background-color: #171717;
+	color: #fff;
+	margin: 40px auto 40px auto;
+	width: 620px;
+}
+header {
+  position: fixed;
+  top:  24px;
+  left: 0px;
+  z-index: 10000000000000;
+  overflow:  hidden;
+}
+h1 span {
+  display:  inline-block;  
+  flex:  0 0 auto;
+  width: 200px;
+}
+h2 span {
+  display:  inline-block;  
+  flex:  0 0 auto;
+  width: 250px;
+}
+
+.slides {
+  position:  relative;
+  height:  100vh;
+  margin-top:  180px;
+  perspective:  800px;
+}
+h1 {
+  display:  flex;
+}
+
+h2 {
+  display:  flex;
+}
+
+.slides img {
+  position: absolute;
+  top: 0;
+  left: 0;
+/*   height: 626px;
+  width: 890px; */
+  border-radius:  3px;
+  box-shadow: 0 0 30px rgba(0,0,0,.20);
+}
+
